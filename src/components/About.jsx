@@ -47,11 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        我是哈尔滨理工大学计算机科学与技术专业的大三学生李明鸿，目前专注于后端开发方向，
+        尤其对C++网络编程和Linux系统编程有浓厚兴趣。在校期间系统学习了操作系统、计算机网络等核心课程，
+        独立开发过基于Socket的简易聊天室项目，具备扎实的理论基础和实践能力，目标后端开发实习岗位。
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
