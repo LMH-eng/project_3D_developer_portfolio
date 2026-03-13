@@ -195,7 +195,7 @@ const projects = [
       },
     ],
     image: jobit, // 修正image为jobit，和模板一致
-    source_code_link: "https://github.com/LMH-eng",
+    source_code_link: "https://github.com/LMH-eng/cpp-plane-battle",
   },
 ];
 export { services, technologies, experiences, testimonials, projects };
