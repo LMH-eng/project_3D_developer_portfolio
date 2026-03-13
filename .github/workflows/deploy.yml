@@ -33,8 +33,8 @@ jobs:
           node-version: 20
           cache: 'npm'
       
-      - name: 安装依赖
-        run: npm install
+      - name: 安装依赖（忽略老版本依赖冲突）
+        run: npm install --legacy-peer-deps
       
       - name: 构建项目
         run: npm run build
