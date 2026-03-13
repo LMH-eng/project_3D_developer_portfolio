@@ -42,129 +42,87 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "后端开发工程师",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "C++ 开发工程师",
     icon: creator,
+  },
+  {
+    title: "Linux 服务器开发",
+    icon: web,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C++",
+    icon: backend, // 用现成的backend图标
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Socket 网络编程",
+    icon: web,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Linux 系统编程",
+    icon: creator,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "多线程/并发",
+    icon: mobile,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "MySQL",
+    icon: mongodb, // 用现成的mongodb图标
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "C++ 简易聊天室项目",
+    company_name: "个人项目",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2026年1月 - 2026年2月",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "基于Linux环境下的C++ Socket编程开发，实现了支持多人同时在线的简易聊天室",
+      "使用TCP协议实现可靠数据传输，支持公屏群聊、一对一私聊、用户上线/下线通知等核心功能",
+      "采用多线程并发模型处理客户端连接，使用互斥锁保证共享数据的线程安全，支持10+用户同时在线稳定运行",
+      "设计了简单的用户注册/登录逻辑，使用MySQL存储用户信息，实现了数据持久化",
+      "完整源码已开源至GitHub，包含详细的README文档和编译运行说明",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "C++ 飞机大战游戏",
+    company_name: "个人项目",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2025年10月 - 2025年12月",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "使用C++和EasyX图形库开发2D飞机大战游戏，实现了玩家飞机、敌机、子弹、碰撞检测、分数系统、关卡递进等核心功能",
+      "设计了游戏循环、对象池、状态机等核心游戏逻辑，优化了游戏性能，避免了内存泄漏",
+      "使用Git进行版本控制，完整源码已开源至GitHub仓库",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Java 学生信息管理系统",
+    company_name: "课程设计",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2025年6月 - 2025年7月",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "使用Java Swing开发GUI界面，MySQL作为数据库，实现了学生信息的增删改查、成绩统计、用户登录权限管理等功能",
+      "使用JDBC连接数据库，设计了合理的数据库表结构，实现了数据的持久化存储",
+      "项目代码结构清晰，使用了面向对象的设计思想，便于维护和扩展",
     ],
   },
 ];
@@ -198,68 +156,50 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "C++ 简易聊天室",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "基于Linux环境下C++ Socket编程开发的多人在线聊天室，采用TCP协议实现可靠传输，支持公屏群聊、一对一私聊、用户上下线通知，使用多线程并发模型处理客户端连接，互斥锁保证线程安全，支持10+用户同时稳定运行。",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Socket",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Linux",
         color: "pink-text-gradient",
+      },
+      {
+        name: "多线程",
+        color: "blue-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/LMH-eng",
   },
   {
-    name: "Job IT",
+    name: "C++ 飞机大战游戏",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "使用C++和EasyX图形库开发的2D飞机大战游戏，实现了玩家飞机、敌机、子弹、碰撞检测、分数系统、关卡递进等核心功能，游戏体验流畅，代码结构清晰。",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "EasyX",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "游戏开发",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/LMH-eng",
   },
 ];
-
 export { services, technologies, experiences, testimonials, projects };
