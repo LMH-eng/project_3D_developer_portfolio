@@ -172,10 +172,6 @@ const projects = [
         name: "Linux",
         color: "pink-text-gradient",
       },
-      {
-        name: "多线程",
-        color: "blue-text-gradient",
-      },
     ],
     image: carrent,
     source_code_link: "https://github.com/LMH-eng",
@@ -198,7 +194,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: jobit, // 修正image为jobit，和模板一致
     source_code_link: "https://github.com/LMH-eng",
   },
 ];
